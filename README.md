@@ -49,9 +49,10 @@ This command starts a local development server and opens up a browser window. Mo
 
 ### Info
 
-This is an early proof of concept, it's good for mass sending to one address.
-This is deprecated but works for what it's intended for.
-You can find wallet information in wallets folder.
-This has no measures of security, the private key is held in a text file, if your computer is infected it can be stolen.
-Might need to update config/protocol.json from time to time.
-Need to leave enough ada for the fee when sending (estimate it based on experience)
+- This is an early proof of concept, it's good for mass sending to one address.
+- This is deprecated but works for what it's intended for.
+- You can find wallet information in wallets folder.
+- This has no measures of security, the private key is held in a text file, if your computer is infected it can be stolen.
+- Might need to update config/protocol.json from time to time.
+- Need to leave enough ada for the fee when sending (estimate it based on experience).
+- Remove the wallets created in wallets folder and create new ones (make sure they are always in order, from 1 and up)
