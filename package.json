@@ -1,0 +1,22 @@
+{
+  "name": "cardano-monster-v2-beta",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stricahq/bip32ed25519": "^1.0.4",
+    "@stricahq/typhonjs": "^1.2.4",
+    "axios": "^0.27.2",
+    "bip39": "^3.0.4",
+    "fast-glob": "^3.2.11",
+    "ini": "^3.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}
